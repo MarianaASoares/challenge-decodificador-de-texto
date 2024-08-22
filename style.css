@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    background-color: #E5E5E5;
+    font-family:"Inter", sans-serif; ;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo_alura{
+    margin-bottom: 10px;
+    padding-top: 10px; 
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color:#0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    
+}
+
+::placeholder{color:#0A3871;}
+
+.text-area:focus{
+    outline: none;
+}
+
+.mensagem{
+   background: white;
+   background-image:url(Imagem/boneco.png);
+   background-repeat: no-repeat;
+   background-position: center; 
+   background-size: 336px 304px;
+   border: none;
+   border-radius: 24px;
+   color: #0A3871;
+   margin-left: 98px;
+   margin-top: 20px;
+   padding-left: 20px;
+   position: fixed;
+}
+
+
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top:18px ;
+}
+
+.botao_criptografar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: white;
+    border-radius: 24px;
+    height: 67px;
+    width: 328px;
+    cursor: pointer;
+}
+
+.botao_descriptografar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    border-radius: 24px;
+    height: 67px;
+    width: 328px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.btn-copiar{
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    height: 67px;
+    width: 336px;
+    margin-left: 108px;
+    margin-top:402px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.informacao{
+    color: #495057;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
