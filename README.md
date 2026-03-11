@@ -1,60 +1,87 @@
-<h1>Esse desafio proposto pela Alura, tinha como base criar um decofificador de texto que faz a criptografia e descriptografia de textos. </h1>
-<p>Após alguns desafios para concluir esse projeto, foi possível torna-ló real e funcional.</p>
+# :closed_lock_with_key: Decodificador de Texto
 
-<h2>Funcionamento</h2>
+<p>O Decodificador de Texto permite que o usuário digite uma mensagem e escolha entre criptografar ou descriptografar o conteúdo. </p>
 
-<h3>Botão Criptografar: Selecionando o botão criptografar, uma mensagem é convertida em outra frase, seguindo uma regra</h3>
+<p>A criptografia funciona através da substituição de determinadas letras por sequências específicas, criando uma nova mensagem codificada. Já a descriptografia realiza o processo inverso, restaurando o texto original.</p>
+
+<p>Além disso, o sistema conta com um botão para copiar o texto gerado, facilitando novas conversões ou o compartilhamento da mensagem.</p>
+
+🔗 Deploy: https://marianaasoares.github.io/challenge-decodificador-de-texto/
+
+📁 Repositório: https://github.com/MarianaASoares/challenge-decodificador-de-texto
+
+---
+
+# :gear: Regras de Criptografia
+
+| Letra | Conversão |
+|------ |-----------|
+| a     |    ai     |
+| e     |    enter  |
+| i     |    imes   |
+| o     |    ober   |
+| u     |    ufat   |
+
+### Exemplo:
+
+```
+Texto original:
+ola
+
+Texto criptografado:
+oberlai
+```
+
+
+---
+# :rocket: Tecnologias Utilizadas
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
+
+# :dart: Objetivo do Projeto
+
+<p>Este desafio teve como objetivo praticar conceitos importantes do desenvolvimento front-end, como:</p>
+
 <ul>
-  <li>A letra "e" é convertida para "enter"</li>
-  <li>A letra "i" é convertida para "imes"</li>
-  <li>A letra "a" é convertida para "ai"</li>
-  <li>A letra "o" é convertida para "ober"</li>
-  <li>A letra "u" é convertida para "ufat"</li>
+  <li>Lógica de programação</li>
+  <li>Manipulação do DOM</li>
+  <li>Interação com o usuário</li>
+  <li>Estruturação de interfaces web</li>
 </ul>
 
-![mensagem criptografada](https://github.com/user-attachments/assets/00102e00-15bb-4b50-afc5-34a4fcf86dab)
 
-<p>Após escrever a mensagem no campo "digite seu texto" e selecionado o botão "Criptografar" a mensagem é convertida, sendo visualizada no campo ao lado.</p>
+---
 
-<h3>Botão Descriptografar: Após criptografar a mensagem, podemos converte-lá para descobrir a mensagem, utilizando o botão "Descriptografar"</h3>
-
-![botão descriptografar](https://github.com/user-attachments/assets/fded503b-ceb4-4349-82e5-ac24e7ef84df)
-
-<h3>Podemos utilizar o botão "Copiar" para copiar um conteúdo Criptografado ou Descriptografado, e colando ele no campo "digite aqui seu texto" podemos realizar uma nova conversão.</h3>
-<p>Exemplo: Após fazer a criptografia da mensagem, indo em copiar e a colando no campo de texto, vamos selecionar o botão "descriptografar" e a mensagem será revelada. Como mostra abaixo</p>
+# :camera: Preview
 
 
-![exemplo botão copiar, criptografando](https://github.com/user-attachments/assets/c575738f-a7d0-4fa4-bef5-8e37b9898212)
-
-<p>Quando o botão "copiar" é selecionado, a mensagem fica em destaque, deixando claro que já podemos colar </p>
-
-![selecionando o botão](https://github.com/user-attachments/assets/595e6521-aa26-49fb-9a9d-58fb1cbc87a1)
+<img src="Imagem/" width = "100%"> 
+  
+🔗 [Ver projeto](https://marianaasoares.github.io/challenge-decodificador-de-texto/) 
 
 
-![mensagem colada](https://github.com/user-attachments/assets/d15bd32e-5892-4354-85a2-ff5a8dfa9e22)
+---
+
+# :game_die:Funcionalidades
+
+<p>:heavy_check_mark: Criptografia de textos digitados pelo usuário.</p>
+<p>:heavy_check_mark: Descriptografia de mensagens codificadas.</p>
+<p>:heavy_check_mark: Botão para copiar o conteúdo gerado.</p>
+<p>:heavy_check_mark: Interface interativa com alteração visual ao processar mensagens.</p>
+<p>:heavy_check_mark: Validação de texto (apenas letras minúsculas e sem acento).</p>
+
+--- 
+
+# :file_folder: Como executar o Projeto
+
+```bash
+git clone https://marianaasoares.github.io/challenge-decodificador-de-texto/.git
+
+cd challenge-decodificador-de-texto
+```
+
+<p>Depois, basta abrir o index.html no navegador.</p>
 
 
-<p>E por fim, após realizar a cola da mensagem e selecionarmos o botão Descriptografar, podemos ver a mensagem real</p>
-
-![descriptogração](https://github.com/user-attachments/assets/054b540e-1701-4bbe-a050-45bbbe33ae2e)
-
-
-<h2>Interface</h2>
-
-<p>Quando abrimos o decodificar, uma imagem é mostrada na área de texto, e quando realizamos uma Criptografia ou Descriptografia a imagem é trocada:</p>
-
-![interface](https://github.com/user-attachments/assets/28e171ba-d366-48b4-9f8f-61a401557417)
-
-![troca de imagem](https://github.com/user-attachments/assets/bfde6d80-de01-4feb-bef1-5c64ec34e4ce)
-
-<h3>Linguagens Usadas</h3>
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-</ul>
-
-<h3>Conheça o decodificador</h3>
-
-<p>Conheça o meu decodificador e faça o teste, utilizando os recursos de Criptografar, Descriptografar e Copiar. Segue link para você conhecer mais:</p>
-<a href= "https://decodificador-de-texto-eight-omega.vercel.app/">Decodificador</a>
