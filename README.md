@@ -6,6 +6,8 @@
 
 <p>Além disso, o sistema conta com um botão para copiar o texto gerado, facilitando novas conversões ou o compartilhamento da mensagem.</p>
 
+<p>Aplicação web desenvolvida durante meus estudos na formação da Alura.</p>
+
 🔗 Deploy: https://marianaasoares.github.io/challenge-decodificador-de-texto/
 
 📁 Repositório: https://github.com/MarianaASoares/challenge-decodificador-de-texto
@@ -57,7 +59,7 @@ oberlai
 # :camera: Preview
 
 
-<img src="Imagem/" width = "100%"> 
+<img src="Imagem/preview-decodificador.gif" width = "100%"> 
   
 🔗 [Ver projeto](https://marianaasoares.github.io/challenge-decodificador-de-texto/) 
 
